@@ -31,6 +31,7 @@
     width: 100%;
 
     .page-title {
+      text-transform: uppercase;
       padding-left: 0px;
       padding-right: 30px;
       display: inline-block;
@@ -40,15 +41,9 @@
         font-family: verdana;
         font-size: 12px;
         line-height: 40px;
-        text-transform: none;
       }
-      a.active {
+      a.active, a:hover {
         color: #444;
-        text-transform: none;
-      }
-      a:hover {
-        color: #444;
-        text-transform: none;
       }
       &:first-child {
         padding-left: 0 !important;

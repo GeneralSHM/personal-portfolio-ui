@@ -1,4 +1,9 @@
 export default {
+  header: {
+    navigation: {
+      workLink: "work"
+    }
+  }
   // "some.translation.key": "Text for some.translation.key",
   //
   // "a": {
