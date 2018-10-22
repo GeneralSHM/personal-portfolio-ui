@@ -13,10 +13,14 @@
     {{/link-to}}
     </div>
     <div class="page-title">
-      <a href="/about">ABOUT</a>
+      {{#link-to 'about'}}
+        {{t 'header.navigation.about'}}
+      {{/link-to}}
     </div>
     <div class="page-title">
-      <a href="/contact">CONTACT</a>
+      {{#link-to 'contact'}}
+        {{t 'header.navigation.contact'}}
+      {{/link-to}}
     </div>
   </div>
   <div class="social pf-nav-social">
