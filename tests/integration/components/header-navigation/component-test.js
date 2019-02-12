@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
-import { render, find } from '@ember/test-helpers';
+import { render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
 
 module('Integration | Component | header navigation', function(hooks) {
@@ -12,15 +12,14 @@ module('Integration | Component | header navigation', function(hooks) {
 
     await render(hbs`{{header-navigation}}`);
 
-    assert.dom('*').hasText('');
+    assert.dom('*').hasText('work about contact');
 
     // Template block usage:
     await render(hbs`
       {{#header-navigation}}
-        template block text
       {{/header-navigation}}
     `);
 
-    assert.dom('*').hasText('template block text');
+    assert.dom('*').hasText('work about contact');
   });
 });
