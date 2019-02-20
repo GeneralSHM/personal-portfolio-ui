@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4468ecae-9064-4692-bbc4-b3d1cab3d846" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/header-navigation/template.hbs" afterPath="$PROJECT_DIR$/app/components/header-navigation/template.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locales/en/translations.js" afterPath="$PROJECT_DIR$/app/locales/en/translations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/router.js" afterPath="$PROJECT_DIR$/app/router.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/application.hbs" afterPath="$PROJECT_DIR$/app/templates/application.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/header-navigation/template.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -40,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.hbs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.hbs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,10 +130,10 @@
         <option value="$PROJECT_DIR$/app/components/header-navigation/component.js" />
         <option value="$PROJECT_DIR$/app/components/header-navigation/style.scss" />
         <option value="$PROJECT_DIR$/app/router.js" />
-        <option value="$PROJECT_DIR$/app/templates/application.hbs" />
         <option value="$PROJECT_DIR$/app/projects/template.hbs" />
         <option value="$PROJECT_DIR$/app/locales/en/translations.js" />
         <option value="$PROJECT_DIR$/app/components/header-navigation/template.hbs" />
+        <option value="$PROJECT_DIR$/app/templates/application.hbs" />
       </list>
     </option>
   </component>
@@ -311,7 +307,7 @@
       <workItem from="1541074741897" duration="12000" />
       <workItem from="1549986735272" duration="926000" />
       <workItem from="1550002146730" duration="13000" />
-      <workItem from="1550600002615" duration="7412000" />
+      <workItem from="1550600002615" duration="7431000" />
     </task>
     <task id="LOCAL-00001" summary="check repo ?">
       <created>1540145773591</created>
@@ -324,7 +320,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16469000" />
+    <option name="totallyTimeSpent" value="16488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -676,14 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/projects/template.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -710,8 +698,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/header-navigation/template.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/application.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
