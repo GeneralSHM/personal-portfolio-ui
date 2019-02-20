@@ -3,7 +3,7 @@ export default {
     navigation: {
       currentResearch: "Current Research",
       researches: "Researches",
-      workLink: "work",
+      workLink: "projects",
       contact: "contact",
       about: "about"
     }
