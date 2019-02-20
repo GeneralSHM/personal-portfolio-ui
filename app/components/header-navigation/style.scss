@@ -31,12 +31,14 @@
       display: inline-block;
       vertical-align: middle;
       a {
+        text-decoration: none;
         color: #ff0640;
         font-family: verdana;
         font-size: 12px;
         line-height: 40px;
       }
       a.active, a:hover {
+        text-decoration: underline;
         color: #444;
       }
       &:first-child {
