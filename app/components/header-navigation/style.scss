@@ -1,34 +1,28 @@
+@import "animations.scss";
+
 .site-header {
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  padding-bottom: 0;
-  padding-top: 0;
-  width: 65%;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  height: 70px;
+  top: 0;
+  background-color: white;
 
   .logo img {
     max-width: 100%;
+    width: 70px;
+    height: 70px;
   }
 
   .logo-image {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+
   }
 
   nav {
     float: none;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 37px;
     padding-top: 19px;
-    padding-left: 0;
-    padding-right: 0;
-    text-align: center;
-    width: 100%;
 
     .page-title {
       text-transform: uppercase;
@@ -47,9 +41,6 @@
       }
       &:first-child {
         padding-left: 0 !important;
-      }
-      &:last-child {
-        padding-right: 0 !important;
       }
     }
   }

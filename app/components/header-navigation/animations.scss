@@ -1,0 +1,68 @@
+@-webkit-keyframes squeezeLogo {
+  0% { width: 70px; height: 70px; }
+  50% { width: 57px; height: 57px; }
+  100% { width: 44px; height: 44px; }
+}
+@keyframes squeezeLogo {
+  0% { width: 70px; height: 70px; }
+  50% { width: 57px; height: 57px; }
+  100% { width: 44px; height: 44px; }
+}
+
+@-webkit-keyframes reverseSqueezeLogo {
+  0% { width: 44px; height: 44px; }
+  50% { width: 57px; height: 57px; }
+  100% { width: 70px; height: 70px; }
+}
+@keyframes reverseSqueezeLogo {
+  0% { width: 44px; height: 44px; }
+  50% { width: 57px; height: 57px; }
+  100% { width: 70px; height: 70px; }
+}
+
+
+@-webkit-keyframes squeezeHeader {
+  0% { height: 70px; }
+  50% { height: 57px; }
+  100% { height: 44px; }
+}
+@keyframes squeezeHeader {
+  0% { height: 70px; }
+  50% { height: 57px; }
+  100% { height: 44px; }
+}
+
+@-webkit-keyframes reverseSqueezeHeader {
+  0% { height: 44px; }
+  50% { height: 57px; }
+  100% { height: 70px; }
+}
+@keyframes reverseSqueezeHeader {
+  0% { height: 44px; }
+  50% { height: 57px; }
+  100% { height: 70px; }
+}
+
+.squeezeLogo {
+  -webkit-animation: squeezeLogo 0.2s;
+  animation: squeezeLogo 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.reverseSqueezeLogo {
+  -webkit-animation: reverseSqueezeLogo 0.2s;
+  animation: reverseSqueezeLogo 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.squeezeHeader {
+  -webkit-animation: squeezeHeader 0.2s;
+  animation: squeezeHeader 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.reverseSqueezeHeader {
+  -webkit-animation: reverseSqueezeHeader 0.2s;
+  animation: reverseSqueezeHeader 0.2s;
+  animation-fill-mode: forwards;
+}
