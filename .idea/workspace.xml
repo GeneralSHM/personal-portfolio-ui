@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4468ecae-9064-4692-bbc4-b3d1cab3d846" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/header-navigation/template.hbs" afterPath="$PROJECT_DIR$/app/components/header-navigation/template.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locales/en/translations.js" afterPath="$PROJECT_DIR$/app/locales/en/translations.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/router.js" afterPath="$PROJECT_DIR$/app/router.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/header-navigation/template.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -28,11 +26,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="translations.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/locales/en/translations.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -52,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/app/components/header-navigation/component.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -89,7 +97,6 @@
       <list>
         <option value="$PROJECT_DIR$/ember-cli-build.js" />
         <option value="$PROJECT_DIR$/app/styles/app.css" />
-        <option value="$PROJECT_DIR$/app/router.js" />
         <option value="$PROJECT_DIR$/app/styles/variables.scss" />
         <option value="$PROJECT_DIR$/app/styles/app.scss" />
         <option value="$PROJECT_DIR$/app/templates/application.hbs" />
@@ -106,6 +113,7 @@
         <option value="$PROJECT_DIR$/app/components/header-navigation/style.scss" />
         <option value="$PROJECT_DIR$/app/locales/en/translations.js" />
         <option value="$PROJECT_DIR$/app/components/header-navigation/template.hbs" />
+        <option value="$PROJECT_DIR$/app/router.js" />
       </list>
     </option>
   </component>
@@ -186,6 +194,12 @@
               <item name="portfolio-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio-website" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="current-research" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-website" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="locales" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -200,6 +214,12 @@
               <item name="portfolio-website" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio-website" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="researches" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio-website" type="b2602c69:ProjectViewProjectNode" />
@@ -267,7 +287,7 @@
       <workItem from="1541074741897" duration="12000" />
       <workItem from="1549986735272" duration="926000" />
       <workItem from="1550002146730" duration="13000" />
-      <workItem from="1550600002615" duration="7113000" />
+      <workItem from="1550600002615" duration="7252000" />
     </task>
     <task id="LOCAL-00001" summary="check repo ?">
       <created>1540145773591</created>
@@ -280,7 +300,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16170000" />
+    <option name="totallyTimeSpent" value="16309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -576,14 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/components/projects-list/template.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -643,7 +655,7 @@
     <entry file="file://$PROJECT_DIR$/app/components/header-navigation/component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -659,7 +671,7 @@
     <entry file="file://$PROJECT_DIR$/app/locales/en/translations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -668,6 +680,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding />
         </state>
       </provider>
