@@ -9,8 +9,13 @@
   height: 70px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 10px;
   top: 0;
   background-color: white;
+
+  .logo-wrap {
+    padding-left: 10px;
+  }
 
   .logo img {
     max-width: 100%;
@@ -40,11 +45,30 @@
         line-height: 40px;
       }
       a.active, a:hover {
-        text-decoration: underline;
+        text-decoration: none;
         color: #444;
       }
       &:first-child {
         padding-left: 0 !important;
+      }
+    }
+  }
+
+  i {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .site-header {
+    nav {
+      .pages {
+        display: none;
+      }
+
+      i {
+        display: block;
+        float: right;
       }
     }
   }
