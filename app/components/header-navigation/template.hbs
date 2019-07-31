@@ -7,7 +7,7 @@
     </div>
   </div>
 
-  <nav class="js-editable-target editable">
+  <nav class="editable">
     <div class="pages">
       <div class="page-title">
         {{#link-to "projects"}}
@@ -35,7 +35,46 @@
         {{/link-to}}
       </div>
     </div>
-    <i class="bars icon large"></i>
+    {{#burger-menu itemAnimation="push" position="right" as |burger|}}
+      {{#burger.menu itemTagName="div" as |menu|}}
+        <i class="close icon large" {{action burger.state.actions.close}}></i>
+        <ul>
+          {{#menu.item}}
+            {{#link-to "projects"}}
+              {{t "header.navigation.workLink"}}
+            {{/link-to}}
+          {{/menu.item}}
+
+          {{#menu.item}}
+            {{#link-to "current-research"}}
+              {{t "header.navigation.currentResearch"}}
+            {{/link-to}}
+          {{/menu.item}}
+
+          {{#menu.item}}
+            {{#link-to "researches"}}
+              {{t "header.navigation.researches"}}
+            {{/link-to}}
+          {{/menu.item}}
+
+          {{#menu.item}}
+            {{#link-to "about"}}
+              {{t "header.navigation.about"}}
+            {{/link-to}}
+          {{/menu.item}}
+
+          {{#menu.item}}
+            {{#link-to "contact"}}
+              {{t "header.navigation.contact"}}
+            {{/link-to}}
+          {{/menu.item}}
+        </ul>
+      {{/burger.menu}}
+
+      {{#burger.outlet}}
+        <i class="bars icon large" {{action burger.state.actions.toggle}}></i>
+      {{/burger.outlet}}
+    {{/burger-menu}}
     <div class="social pf-nav-social">
       <ul></ul>
     </div>

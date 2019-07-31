@@ -2,3 +2,6 @@
 @import "app/components/header-navigation/style";
 
 @import 'main';
+
+$bm-overlay-background: rgba(0, 0, 0, 0);
+@import 'ember-burger-menu';

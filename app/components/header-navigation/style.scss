@@ -1,5 +1,7 @@
 @import "animations.scss";
 
+$textColor: #ff0640;
+
 .site-header {
   display: flex;
   align-items: center;
@@ -36,7 +38,7 @@
       vertical-align: middle;
       a {
         text-decoration: none;
-        color: #ff0640;
+        color: $textColor;
         font-family: verdana;
         font-size: 12px;
         line-height: 40px;
@@ -67,6 +69,46 @@
         display: block;
         padding-bottom: 35px;
         float: right;
+      }
+    }
+  }
+}
+
+
+.ember-burger-menu {
+  overflow: unset !important;
+
+  .bm-menu {
+    background: white;
+
+    i {
+      float: right;
+    }
+  }
+
+  ul {
+    border-bottom: solid 1px rgba(0,0,0,0.1);
+    right: 0;
+    background: white;
+
+    div {
+      padding: 5px 0;
+      text-transform: capitalize;
+
+      a {
+        text-decoration: none;
+        color: $textColor;
+        font-family: verdana;
+        font-size: 12px;
+      }
+
+      &:hover {
+          text-decoration: none;
+
+        a{
+          color: #444;
+        }
+
       }
     }
   }
