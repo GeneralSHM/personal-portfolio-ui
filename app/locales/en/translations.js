@@ -3,9 +3,9 @@ export default {
     navigation: {
       currentResearch: "Current Research",
       researches: "Researches",
-      workLink: "projects",
-      contact: "contact",
-      about: "about"
+      workLink: "Projects",
+      contact: "Contact",
+      about: "About"
     }
   }
 };

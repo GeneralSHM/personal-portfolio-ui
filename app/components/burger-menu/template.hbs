@@ -1,1 +1,32 @@
-{{yield}}
+<div class="burger-menu">
+  <input type="checkbox" id="menu-toggle"/>
+  <label id="trigger" for="menu-toggle"></label>
+  <label id="burger" for="menu-toggle"></label>
+  <ul id="menu">
+    <li>
+      {{#link-to "projects"}}
+        {{t "header.navigation.workLink"}}
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to "current-research"}}
+        {{t "header.navigation.currentResearch"}}
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to "researches"}}
+        {{t "header.navigation.researches"}}
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to "about"}}
+        {{t "header.navigation.about"}}
+      {{/link-to}}
+    </li>
+    <li>
+      {{#link-to "contact"}}
+        {{t "header.navigation.contact"}}
+      {{/link-to}}
+    </li>
+  </ul>
+</div>
