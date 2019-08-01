@@ -3,24 +3,24 @@
    */
 body {
   margin: 0;
+  height: 100%;
 }
 
-.site-container {
-  clear: both;
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1400px;
+body > .ember-view {
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  min-height: 100%;
 }
 
 .site-content {
-  margin-top: 90px;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
+  padding: 90px 0;
+
 }
 
 .wrapper {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
 }

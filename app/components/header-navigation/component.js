@@ -81,7 +81,7 @@ export default Component.extend({
    */
   handleScroll() {
     const bcr = document.querySelector('body').getBoundingClientRect();
-    this.set('isUserScrolledDown', bcr.y < 75);
+    this.set('isUserScrolledDown', bcr.y < -30);
     this.set('hasUserScrolled', true);
   }
 
